@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* TROIS PREMIERS CARRES */
+.container_1{
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    top:50px;
+    left:200px;
+}
+.container_1>div{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid black;
+    position: absolute;
+}
+.square_2{
+    position:relative;
+    top:40px;
+    left:40px;
+}
+.square_3{
+    position:relative;
+    top:80px;
+    left:80px;
+}
+/* 3 CARRES EN SYMETRIE VERTICALE */
+.container_2{
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    top:50px;
+    left:540px;
+}
+
+.container_2>div{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid black;
+    position: absolute;
+}
+.square_4{
+    position: relative;
+    left: 140px;
+}
+.square_5{
+    position:relative;
+    top:40px;
+    left:100px;
+}
+.square_6{
+    position:relative;
+    top:80px;
+    left:60px;
+}
+/* SYMETRIE HORIZONTALE GAUCHE */
+.container_3{
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    top:390px;
+    left:200px;
+}
+
+.container_3>div{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid black;
+    position: absolute;
+}
+.square_7{
+    position:relative;
+    top:140px;
+}
+.square_8{
+    position:relative;
+    top:100px;
+    left:40px;
+    z-index: 1;
+}
+.square_9{
+    position:relative;
+    top:60px;
+    left:80px;
+    z-index: 2;
+}
+/* µµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµµ */
+.container_4{
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    top:390px;
+    left:540px;
+}
+
+.container_4>div{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border: 2px solid black;
+    position: absolute;
+}
+.square_10{
+    position: relative;
+    left:140px;
+    top:140px;
+
+}
+.square_11{
+    position:relative;
+    top:100px;
+    left:100px;
+}
+.square_12{
+    position:relative;
+    top:60px;
+    left:60px;
+} 
